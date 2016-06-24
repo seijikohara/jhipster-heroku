@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "3.4.2",
+    "baseName": "jhipster",
+    "packageName": "com.heroku.jhipster",
+    "packageFolder": "com/heroku/jhipster",
+    "serverPort": "8080",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "buildTool": "gradle",
+    "enableSocialSignIn": true,
+    "rememberMeKey": "102a9c9116e42aefe5f105c613d90218afd47003",
+    "useSass": true,
+    "applicationType": "monolith",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "ja",
+    "languages": [
+      "ja"
+    ]
+  }
+}
